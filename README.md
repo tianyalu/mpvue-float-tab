@@ -4,7 +4,7 @@
 微信小程序悬浮tab标签布局的实现，当页面向上滚动到tab标签布局时，标签布局置顶。  
 详情可参考：<a target="_blank" href="https://blog.csdn.net/tianyaluqingchen/article/details/83543875">微信小程序悬浮tab标签布局的实现</a>  
 效果图如下：  
-![image](https://github.com/tianyalu/mpvue-float-tab/blob/master/screeenrecord/show.gif)
+![image](https://github.com/tianyalu/mpvue-float-tab/blob/master/screenrecord/show.gif)
 
 
 ## Build Setup
