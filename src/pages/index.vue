@@ -8,17 +8,9 @@
       </div>
     </div>
 
-    <div class="usermotto">
-      <div class="user-motto">
-        <card :text="motto"></card>
-      </div>
+    <div class="link-container">
+      <a href="/pages/floatTab" class="counter">去往FloatTab示例页面</a>
     </div>
-
-    <form class="form-container">
-      <input type="text" class="form-control" v-model="motto" placeholder="v-model" />
-      <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
-    </form>
-    <a href="/pages/counter" class="counter">去往Vuex示例页面</a>
   </div>
 </template>
 
@@ -95,9 +87,14 @@ export default {
   margin-bottom: 5px;
   border: 1px solid #ccc;
 }
-
+.link-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
 .counter {
-  display: inline-block;
+  display: inline;
+  text-align: center;
   margin: 10px auto;
   padding: 5px 10px;
   color: blue;

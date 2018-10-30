@@ -12,13 +12,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 200rpx 0;
   box-sizing: border-box;
 }

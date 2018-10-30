@@ -13,6 +13,8 @@
   "dependencies": {
     "mpvue": "^1.0.0",
     "mpvue-router-patch": "^0.2.1",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
     "vuex": "^3.0.0"
   },
   "devDependencies": {
